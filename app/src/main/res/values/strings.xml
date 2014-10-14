@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bata Sales Managment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_activity_report">Report Dashboard</string>
+    <string name="title_activity_sales">Sales Report</string>
+    <string name="title_activity_travel">Travel Plan</string>
+    <string name="title_activity_sales_view2">Sales Step 2</string>
+    <string name="A3.5.Text">18. Conducting of Training and Staff Meeting / Memimpin Training dan Briefing Pramuniaga</string>
+    <string name="A3.6.Text">19. Store Cleanliness / Memastikan Semua Sisi Toko Dalam Keadaan Bersih</string>
+    <!-- B.2 -->
+    <string name="A3.7.Text">20. Offering Hosiery (Socks, Polish, etc) / Menawarkan Barang2 Kecil (Kaos Kaki, Semir, dll)</string>
+    <string name="A3.8.Text">21. Cashiers Desk Area Tidy and Clean / Tempat Meja Kasir Rapi dan Bersih</string>
+    <!-- B.3 -->
+    <string name="A3.9.Text">22. Used Standard Uniform and Bata Shoes / Berseragam Rapih dan Memakai Sepatu Bata</string>
+    <string name="A3.10.Text">23. Having Sls Est. Prs/TO/NFW/Reduce Article / Memiliki Anggaran Psg/Rupiah/BK/Artikel PH</string>
+    <string name="A3.11.Text">24. Grooming, Tyding and Dusting Selling Area / Merapikan Pajangan, Menyapu Ruang Penjualan</string>
+    <string name="A3.12.Text">25. Cleaning Pavement / Memiliki Area Tugas Bersih2 Tersendiri</string>
+    <string name="A3.13.Text">26. Not Sitting, Chatting, Use HP in Selling Area / Tidak Duduk, Ngobrol, Main HP Diruang Penjualan</string>
+    <string name="A3.14.Text">27. Inviting Customer to The Shops or Cuap - Cuap / Memanggil Konsumen Masuk ke Dalam Toko</string>
+
+    <!-- A4 -->
+    <string name="A4.1.Text">28. Window Display are Perfectly Done as per VM Guide Book (if any) / Pajangan Etalase (bila ada) tertata dengan baik sesuai petunjuk buku pemajangan VM</string>
+    <string name="A4.2.Text">29. Display in Selling Area are Clean Grouping by Gender/Category Section Following VM Guide Book</string>
+    <string name="A4.3.Text">30. Massive/High Density Display for Promotion Articles at 1st 3 Meter Prime Selling Area</string>
+    <string name="A4.4.Text">31. Socks Panel and Footwear Care Centre Well Displayed and Merchandised / Panel Kaos Kaki, Aksesoris dan Produk Perawatan Sepatu Lainnya Terpajang dan Mudah dijangkau Konsumen</string>
+
+    <!-- A5 -->
+    <string name="A5.1.Text">32. Bata Happy Feet 5 Steps with Every Customer (SS offering a second pair, shoe care and sundries)</string>
+    <string name="A5.2.Text">33. Happy Feet 5 Steps Training/Review to All Sales Staff (simulative training by DSM)</string>
+
+    <!-- A6 -->
+    <string name="A6.1.Text">34. Through Out Review of Stock Statement (STAAT) Column by Column and Row by Row</string>
+    <string name="A6.2.Text">35. Slow Moving Items Reviewed. Action taken in Liaison with Merchandising Department</string>
+    <string name="A6.3.Text">36. Red Dot Article are Marking and Implement FIFO (First to Sell is Red Dot)</string>
+    <string name="A6.4.Text">37. Complete Review of Stock Room Setup and Organization Zone</string>
+
+    <!-- A7 -->
+    <string name="A7.1.Text">38. Signage in Perfect Condition (Clean, Well Painted, Lighting Up)</string>
+    <string name="A7.2.Text">39. Frontage of Store, Flooring in Selling Area, Celling are in Good Condition and Clean</string>
+    <string name="A7.3.Text">40. Fixtures, Sitting Stool, and Furniture, Bracket, Gondola are in Good Condition and Well Maintained</string>
+    <string name="A7.4.Text">41. Fire Extinguishers in Good Working Condition and Not Expired Yet</string>
+
+    <!-- A8 -->
+    <string name="A8.1.Text">42. Visual Merchandising Display Guide Book - both Regular and Promotion VM are available</string>
+    <string name="A8.2.Text">43. Retail Dealer - 5 Files are Available and Complete / 5 File Pengecer Khusus ada dan Lengkap</string>
+    <string name="A8.3.Text">44. Copy of RD Agreement are Available in 5 Files RD / Ada Photo Copy Perjanjian Kerja Pengecer Khusus di File 5 RD</string>
+    <string name="A8.4.Text">45. Info Area are Available and Update / Terdapat Papan Informasi dan Diperbaharui dengan Info Terkini</string>
+    <string name="A8.5.Text">46. Happy Feet 5 STEPs Poster are Available / Terdapat Poster 5 Langkah Penjualan dan Ditempel dengan Rapih</string>
+    <string name="A8.6.Text">47. Zero Tollerance are Laminated and Paste on The Readable Well</string>
+    <string name="A8.7.Text">48. Retail Dealer Hand Book are Available and in Good Condition</string>
+    <string name="A8.8.Text">49. Expenses Policy as Per Circular No. 35/40 are Available in 5 Files RD</string>
+    <string name="A8.9.Text">50. POS, Scanner, Receipt printer are Available and in Good Condition</string>
+    <string name="title_activity_sls_step_1">ADMINISTRATION / PEMERIKSAAN ADMINISTRASI</string>
+    <string name="a1.judul"><u>A.1 Business Document / Dokumen Penjualan</u></string>
+    <string name="a2.judul"><u>A.2 Accounting Document / Dokumen Akunting</u></string>
+    <string name="b1.judul"><u>B.1 Shop Manager / Pengecer Khusus</u></string>
+    <string name="b2.judul"><u>B.2 Cashier Officer (NOT RD) / Petugas Kasir (Bukan PK)</u></string>
+    <string name="b3.judul"><u>B.3 Sales Staff / Pramuniaga</u></string>
+    <string name="sls_bs">Save &amp; Next</string>
+    <string name="title_activity_sls_step_2">STORE OPERATION / PENGELOLAAN TOKO</string>
+    <string name="title_activity_sls_step_3">VISUAL DISPLAY STANDARD / STANDARD PEMAJANGAN &amp; CUSTOMER SERVICE / PELAYANAN PELANGGAN</string>
+    <string name="title_activity_sls_step_4">PRODUCT REVIEW / PEMERIKSAAN ULANG PRODUK</string>
+    <string name="title_activity_sls_step_5">RETAIL DEALER WORKING TOOLS / PERLENGKAPAN KERJA PENGECER</string>
+    <string name="title_activity_sls_step_6">DISTRICT MANAGER REPORT (A-2)</string>
+
+    <!-- STEP 6 VALUES -->
+    <string name="pairs"><u>Pairs</u><br /> Pasang</string>
+    <string name="title_activity_sls_step_7">SAVE DATA</string>
+    <string name="title_activity_sls_step_0">Report</string>
+    <string name="uploaded">Successfully uploaded</string>
+    <string name="title_activity_sls_step_6a">DM Report - Store Statistic</string>
+    <string name="title_activity_sls_step_6b">DM Report - Action List</string>
+
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dreamblend.isolusindo.batasalesmanagment.app" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="17" >
+    </uses-sdk>
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.camera" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/BataTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DashboardActivity"
+            android:label="@string/title_activity_dashboard" >
+        </activity>
+        <activity
+            android:name=".ReportActivity"
+            android:label="@string/title_activity_report"
+            android:parentActivityName=".DashboardActivity" >
+        </activity>
+        <activity
+            android:name=".SalesActivity"
+            android:label="@string/title_activity_sales"
+            android:parentActivityName=".DashboardActivity" >
+        </activity>
+        <activity
+            android:name=".TravelActivity"
+            android:label="@string/title_activity_travel" >
+        </activity>
+        <activity
+            android:name=".Sls_Step_1"
+            android:label="@string/title_activity_sls_step_1" >
+        </activity>
+        <activity
+            android:name=".Sls_Step_2"
+            android:label="@string/title_activity_sls_step_2" >
+        </activity>
+        <activity
+            android:name=".Sls_step_3"
+            android:label="@string/title_activity_sls_step_3" >
+        </activity>
+        <activity
+            android:name=".Sls_step_4"
+            android:label="@string/title_activity_sls_step_4" >
+        </activity>
+        <activity
+            android:name=".Sls_step_5"
+            android:label="@string/title_activity_sls_step_5" >
+        </activity>
+        <activity
+            android:name=".Sls_step_6"
+            android:label="@string/title_activity_sls_step_6" >
+        </activity>
+        <activity
+            android:name=".Sls_step_7"
+            android:label="@string/title_activity_sls_step_7" >
+        </activity>
+        <activity
+            android:name=".Sls_step_0"
+            android:label="@string/title_activity_sls_step_0" >
+        </activity>
+        <activity
+            android:name=".Sls_step_6a"
+            android:label="@string/title_activity_sls_step_6a" >
+        </activity>
+        <activity
+            android:name=".Sls_step_6b"
+            android:label="@string/title_activity_sls_step_6b" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,387 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#e74c3c"
+    tools:context="com.dreamblend.isolusindo.batasalesmanagment.app.Sls_step_6">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="10dp">
+
+            <!-- Circulation -->
+            <TextView
+                android:id="@+id/t.1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:text="CIRCULATION TO / SIRKULASI KEPADA :"
+                android:textColor="#ecf0f1"/>
+
+            <RadioGroup
+                android:id="@+id/t1_Option"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="20dp"
+                >
+                <RadioButton
+                    android:id="@+id/t1_mrc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mercandising / Distributor"
+                    android:textColor="#ecf0f1"
+                    android:layout_marginRight="10dp"
+                    android:textSize="9pt"
+                    />
+                <RadioButton
+                    android:id="@+id/t1_rnv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Renovation"
+                    android:textColor="#ecf0f1"
+                    android:layout_marginRight="10dp"
+                    android:textSize="9pt"
+                    />
+                <RadioButton
+                    android:id="@+id/t1_lre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Leasing / Real Estate"
+                    android:textColor="#ecf0f1"
+                    android:layout_marginRight="10dp"
+                    android:textSize="9pt"
+                    />
+                <RadioButton
+                    android:id="@+id/t1_acc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Accounting / Auditors"
+                    android:textColor="#ecf0f1"
+                    android:layout_marginRight="10dp"
+                    android:textSize="9pt"
+                    />
+            </RadioGroup>
+            <!-- END CIRCULATION-->
+
+            <!-- ROW 1 GI -->
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ti.1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:text="DISTRICT"
+                    android:textColor="#ecf0f1"/>
+
+                <EditText
+                    android:id="@+id/ed_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginRight="8dp"
+                    android:textColor="#95a5a6"
+                    android:textSize="18sp"
+                    android:background="#ecf0f1"
+                    />
+
+                <TextView
+                    android:id="@+id/ti.2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:text="DATE / DAY OF VISIT"
+                    android:textColor="#ecf0f1"/>
+
+                <EditText
+                    android:id="@+id/ed_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginRight="8dp"
+                    android:textColor="#95a5a6"
+                    android:textSize="18sp"
+                    android:background="#ecf0f1"
+                    />
+
+                <TextView
+                    android:id="@+id/ti.3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:text="WEEK OF VISIT"
+                    android:textColor="#ecf0f1"/>
+
+                <EditText
+                    android:id="@+id/ed_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#95a5a6"
+                    android:textSize="18sp"
+                    android:background="#ecf0f1"
+                    />
+            </LinearLayout>
+            <!-- END ROW 1 GI -->
+
+            <!-- ROW 2 GI -->
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/ti.4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:text="STORE"
+                    android:textColor="#ecf0f1"/>
+
+                <Spinner
+                    android:id="@+id/ed_4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginRight="8dp"
+                    android:textSize="18sp"
+                    android:textColor="#95a5a6"
+                    android:background="#ecf0f1" />
+
+                <TextView
+                    android:id="@+id/ti.5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:text="TIME ARRIVE"
+                    android:textColor="#ecf0f1"/>
+
+                <EditText
+                    android:id="@+id/ed_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginRight="8dp"
+                    android:textColor="#95a5a6"
+                    android:textSize="18sp"
+                    android:background="#ecf0f1"
+                    />
+
+                <TextView
+                    android:id="@+id/ti.6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:text="REPORT BY"
+                    android:textColor="#ecf0f1"/>
+
+                <EditText
+                    android:id="@+id/ed_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#95a5a6"
+                    android:textSize="18sp"
+                    android:background="#ecf0f1"
+                    />
+            </LinearLayout>
+            <!-- END ROW 2 GI -->
+
+            <!-- ROW 3 GI -->
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/ti.7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:text="EDP CODE"
+                    android:textColor="#ecf0f1"/>
+
+                <EditText
+                    android:id="@+id/ed_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginRight="8dp"
+                    android:textColor="#95a5a6"
+                    android:textSize="18sp"
+                    android:background="#ecf0f1"
+                    />
+
+                <TextView
+                    android:id="@+id/ti.8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:text="DEPARTURE TIME"
+                    android:textColor="#ecf0f1"/>
+
+                <EditText
+                    android:id="@+id/ed_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginRight="8dp"
+                    android:textColor="#95a5a6"
+                    android:textSize="18sp"
+                    android:background="#ecf0f1"
+                    />
+
+                <TextView
+                    android:id="@+id/ti.9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:text="MANAGER'S NAME"
+                    android:textColor="#ecf0f1"/>
+
+                <EditText
+                    android:id="@+id/ed_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#95a5a6"
+                    android:textSize="18sp"
+                    android:background="#ecf0f1"
+                    />
+            </LinearLayout>
+            <!-- END ROW 3 GI -->
+
+            <!-- ROW 4 GI -->
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/ti.12"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.32"
+                    android:textSize="18sp"
+                    android:text="SPC"
+                    android:textColor="#ecf0f1"/>
+
+                <EditText
+                    android:id="@+id/ed_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.31"
+                    android:layout_marginRight="8dp"
+                    android:textColor="#95a5a6"
+                    android:textSize="18sp"
+                    android:background="#ecf0f1"
+                    />
+
+                <TextView
+                    android:id="@+id/ti.10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:text="LAST VISIT"
+                    android:textColor="#ecf0f1"/>
+
+                <EditText
+                    android:id="@+id/ed_11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginRight="8dp"
+                    android:textColor="#95a5a6"
+                    android:textSize="18sp"
+                    android:background="#ecf0f1"
+                    />
+
+                <TextView
+                    android:id="@+id/ti.11"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:text="PURPOSE OF VISIT"
+                    android:textColor="#ecf0f1"/>
+
+                <RadioGroup
+                    android:id="@+id/t11_Option"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <RadioButton
+                        android:id="@+id/t11_mrc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Full Report"
+                        android:textColor="#ecf0f1"
+                        android:layout_marginRight="5dp"
+                        android:textSize="12sp"
+                        />
+                    <RadioButton
+                        android:id="@+id/t11_rnv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Promotion Rpt"
+                        android:textColor="#ecf0f1"
+                        android:layout_marginRight="5dp"
+                        android:textSize="12sp"
+                        />
+                    <RadioButton
+                        android:id="@+id/t11_lre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pit Rpt"
+                        android:textColor="#ecf0f1"
+                        android:layout_marginRight="5dp"
+                        android:textSize="12sp"
+                        />
+                    <RadioButton
+                        android:id="@+id/t11_acc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Others"
+                        android:textColor="#ecf0f1"
+                        android:layout_marginRight="5dp"
+                        android:textSize="12sp"
+                        />
+                </RadioGroup>
+
+
+            </LinearLayout>
+            <!-- END ROW 4 GI -->
+            <Button
+                android:id="@+id/btnNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sls_bs"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#fff"/>
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>

@@ -1,0 +1,289 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:orientation="vertical"
+    android:background="#e74c3c"
+    tools:context="com.dreamblend.isolusindo.batasalesmanagment.app.Sls_step_6a">
+
+    <TextView
+        android:id="@+id/t.1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="18sp"
+        android:text="DATE LAST PIT by DM : "
+        android:textColor="#ecf0f1"
+        android:gravity="right"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tblt.1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp"
+            android:text="PAIRS"
+            android:textColor="#ecf0f1"
+            android:gravity="center"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shrinkColumns="*"
+            android:stretchColumns="*"
+            android:layout_marginBottom="10dp">
+
+            <TableRow
+                android:id="@+id/tbl.1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:text="TW"
+                    android:textColor="#fff"/>
+                <EditText
+                    android:id="@+id/sales_tw"
+                    android:layout_weight="1"
+                    android:hint="Sales (TW)"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff"
+                    />
+                <EditText
+                    android:id="@+id/sest_tw"
+                    android:layout_weight="1"
+                    android:hint="Sest (TW)"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff"
+                    />
+                <EditText
+                    android:id="@+id/saly_tw"
+                    android:layout_weight="1"
+                    android:hint="Saly (TW)"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tbl.2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:text="TD"
+                    android:textColor="#fff"/>
+                <EditText
+                    android:id="@+id/sales_td"
+                    android:layout_weight="1"
+                    android:hint="Sales (TD)"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff"
+                    />
+                <EditText
+                    android:id="@+id/test_td"
+                    android:layout_weight="1"
+                    android:hint="Test (TD)"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff"
+                    />
+                <EditText
+                    android:id="@+id/taly_tw"
+                    android:layout_weight="1"
+                    android:hint="Taly (TD)"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tbl.3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textSize="16sp"
+                    android:text="STOCK CLOSING WEEK"
+                    android:textColor="#fff"/>
+
+                <EditText
+                    android:id="@+id/stockclsg_pairs"
+                    android:layout_weight="1"
+                    android:hint="Stock Closing Week"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff"/>
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp"
+            android:text="T/O VALUE"
+            android:textColor="#ecf0f1"
+            android:gravity="center"/>
+
+        <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="*"
+                android:stretchColumns="*"
+                android:layout_marginBottom="10dp">
+
+                <TableRow
+                    android:id="@+id/tbl.4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_weight="1"
+                        android:textSize="16sp"
+                        android:text="TW"
+                        android:textColor="#fff"/>
+                    <EditText
+                        android:id="@+id/value_sales_tw"
+                        android:layout_weight="1"
+                        android:hint="Sales (TW)"
+                        android:textColor="#fff"
+                        android:textColorHint="#fff"
+                        />
+                    <EditText
+                        android:id="@+id/value_sest_tw"
+                        android:layout_weight="1"
+                        android:hint="Sest (TW)"
+                        android:textColor="#fff"
+                        android:textColorHint="#fff"
+                        />
+                    <EditText
+                        android:id="@+id/value_saly_tw"
+                        android:layout_weight="1"
+                        android:hint="Saly (TW)"
+                        android:textColor="#fff"
+                        android:textColorHint="#fff"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tbl.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_weight="1"
+                        android:textSize="16sp"
+                        android:text="TD"
+                        android:textColor="#fff"/>
+                    <EditText
+                        android:id="@+id/value_sales_td"
+                        android:layout_weight="1"
+                        android:hint="Sales (TD)"
+                        android:textColor="#fff"
+                        android:textColorHint="#fff"
+                        />
+                    <EditText
+                        android:id="@+id/value_test_td"
+                        android:layout_weight="1"
+                        android:hint="Test (TD)"
+                        android:textColor="#fff"
+                        android:textColorHint="#fff"
+                        />
+                    <EditText
+                        android:id="@+id/value_taly_tw"
+                        android:layout_weight="1"
+                        android:hint="Taly (TD)"
+                        android:textColor="#fff"
+                        android:textColorHint="#fff"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tbl.6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textSize="16sp"
+                        android:text="STOCK CLOSING WEEK"
+                        android:textColor="#fff"/>
+
+                    <EditText
+                        android:id="@+id/stockclsg_value"
+                        android:layout_weight="1"
+                        android:hint="Stock Closing Week"
+                        android:textColor="#fff"
+                        android:textColorHint="#fff"/>
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="*"
+                android:stretchColumns="*"
+                android:layout_marginBottom="10dp"
+                >
+
+                <TableRow
+                    android:id="@+id/tbl.7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="16sp"
+                        android:text="CLOSING WEEK"
+                        android:textColor="#fff" />
+                    <EditText
+                        android:id="@+id/closing_week_input"
+                        android:layout_width="wrap_content"
+                        android:hint="Closing Week Value"
+                        android:textColor="#fff"
+                        android:textColorHint="#fff"
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tbl.8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="16sp"
+                        android:text="NON FOOTWEAR T/O"
+                        android:textColor="#fff" />
+                    <EditText
+                        android:id="@+id/non_footwear_input"
+                        android:layout_width="wrap_content"
+                        android:hint="Non Footwear Value"
+                        android:textColor="#fff"
+                        android:textColorHint="#fff"
+                        />
+
+                </TableRow>
+
+            </TableLayout>
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sls_bs"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#fff"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,943 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:orientation="vertical"
+    android:background="#e74c3c"
+    tools:context="com.dreamblend.isolusindo.batasalesmanagment.app.Sls_step_6b">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:shrinkColumns="*"
+                    android:stretchColumns="*"
+                    android:layout_marginBottom="10dp">
+
+                        <TableRow
+                            android:id="@+id/tRow1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp">
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:textSize="16sp"
+                                android:text="CHECK POINT"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:textSize="16sp"
+                                android:text="ACTION BEING TAKEN TO IMPROVE THE BUSINESS AND SERVICES"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:textSize="16sp"
+                                android:text="RESPONSIBLE"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:textSize="16sp"
+                                android:text="STATUS"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:textSize="16sp"
+                                android:text="DEADLINE"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tRow2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp">
+
+                            <EditText
+                                android:id="@+id/chkpoint.1"
+                                android:layout_weight="1"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                            <EditText
+                                android:id="@+id/action.1"
+                                android:layout_weight="1"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                            <EditText
+                                android:id="@+id/respond.1"
+                                android:layout_weight="1"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                            <EditText
+                                android:id="@+id/stat.1"
+                                android:layout_weight="1"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                            <EditText
+                                android:id="@+id/dline.1"
+                                android:layout_weight="1"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tRow3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp">
+
+                        <EditText
+                            android:id="@+id/chkpoint.2"
+                            android:layout_weight="1"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                        <EditText
+                            android:id="@+id/action.2"
+                            android:layout_weight="1"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                        <EditText
+                            android:id="@+id/respond.2"
+                            android:layout_weight="1"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                        <EditText
+                            android:id="@+id/stat.2"
+                            android:layout_weight="1"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                        <EditText
+                            android:id="@+id/dline.2"
+                            android:layout_weight="1"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tRow4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp">
+
+                            <EditText
+                                android:id="@+id/chkpoint.3"
+                                android:layout_weight="1"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                            <EditText
+                                android:id="@+id/action.3"
+                                android:layout_weight="1"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                            <EditText
+                                android:id="@+id/respond.3"
+                                android:layout_weight="1"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                            <EditText
+                                android:id="@+id/stat.3"
+                                android:layout_weight="1"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                            <EditText
+                                android:id="@+id/dline.3"
+                                android:layout_weight="1"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tRow5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp">
+
+                            <EditText
+                                android:id="@+id/chkpoint.4"
+                                android:layout_weight="1"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                            <EditText
+                                android:id="@+id/action.4"
+                                android:layout_weight="1"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                            <EditText
+                                android:id="@+id/respond.4"
+                                android:layout_weight="1"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                            <EditText
+                                android:id="@+id/stat.4"
+                                android:layout_weight="1"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                            <EditText
+                                android:id="@+id/dline.4"
+                                android:layout_weight="1"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                        </TableRow>
+
+                    </TableLayout>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:shrinkColumns="*"
+                    android:stretchColumns="*"
+                    android:layout_marginBottom="10dp">
+
+                        <TableRow
+                            android:id="@+id/tRow6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp">
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:textSize="16sp"
+                                android:text=""
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:textSize="16sp"
+                                android:text="ACTION NOTES FOR HEAD OFFICE STAFF"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:textSize="16sp"
+                                android:text="ADDRESS TO"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                            <TextView
+                                android:layout_weight="3"
+                                android:textSize="16sp"
+                                android:text="URGENT LEVEL"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tRow7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp">
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:textSize="16sp"
+                                android:text="MERCHANDISER"
+                                android:textColor="#fff"/>
+
+                            <EditText
+                                android:id="@+id/notes.1"
+                                android:layout_weight="1"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                            <EditText
+                                android:id="@+id/address.1"
+                                android:layout_weight="1"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                            <RadioGroup
+                                android:id="@+id/level.1"
+                                android:layout_weight="1"
+                                android:layout_gravity="center_horizontal"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/level.l"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Low"/>
+                                <RadioButton
+                                    android:id="@+id/level.m"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Medium"/>
+                                <RadioButton
+                                    android:id="@+id/level.h"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="High"/>
+                            </RadioGroup>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tRow8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp">
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:textSize="16sp"
+                                android:text="DISTRIBUTOR"
+                                android:textColor="#fff"/>
+
+                            <EditText
+                                android:id="@+id/notes.2"
+                                android:layout_weight="1"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                            <EditText
+                                android:id="@+id/address.2"
+                                android:layout_weight="1"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                            <RadioGroup
+                                android:id="@+id/level.2"
+                                android:layout_weight="1"
+                                android:layout_gravity="center_horizontal"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/level.l.2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Low"/>
+                                <RadioButton
+                                    android:id="@+id/level.m.2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Medium"/>
+                                <RadioButton
+                                    android:id="@+id/level.h.2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="High"/>
+                            </RadioGroup>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tRow9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp">
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:textSize="16sp"
+                                android:text="RENOVATION"
+                                android:textColor="#fff"/>
+
+                            <EditText
+                                android:id="@+id/notes.3"
+                                android:layout_weight="1"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                            <EditText
+                                android:id="@+id/address.3"
+                                android:layout_weight="1"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                            <RadioGroup
+                                android:id="@+id/level.3"
+                                android:layout_weight="1"
+                                android:layout_gravity="center_horizontal"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/level.l.3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Low"/>
+                                <RadioButton
+                                    android:id="@+id/level.m.3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Medium"/>
+                                <RadioButton
+                                    android:id="@+id/level.h.3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="High"/>
+                            </RadioGroup>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tRow10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp">
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:textSize="16sp"
+                                android:text="LEASING"
+                                android:textColor="#fff"/>
+
+                            <EditText
+                                android:id="@+id/notes.4"
+                                android:layout_weight="1"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                            <EditText
+                                android:id="@+id/address.4"
+                                android:layout_weight="1"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                            <RadioGroup
+                                android:id="@+id/level.4"
+                                android:layout_weight="1"
+                                android:layout_gravity="center_horizontal"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/level.l.4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Low"/>
+                                <RadioButton
+                                    android:id="@+id/level.m.4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Medium"/>
+                                <RadioButton
+                                    android:id="@+id/level.h.4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="High"/>
+                            </RadioGroup>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tRow11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp">
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:textSize="16sp"
+                                android:text="ACCOUNTING"
+                                android:textColor="#fff"/>
+
+                            <EditText
+                                android:id="@+id/notes.5"
+                                android:layout_weight="1"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                            <EditText
+                                android:id="@+id/address.5"
+                                android:layout_weight="1"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                            <RadioGroup
+                                android:id="@+id/level.5"
+                                android:layout_weight="1"
+                                android:layout_gravity="center_horizontal"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/level.l.5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Low"/>
+                                <RadioButton
+                                    android:id="@+id/level.m.5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Medium"/>
+                                <RadioButton
+                                    android:id="@+id/level.h.5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="High"/>
+                            </RadioGroup>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tRow12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp">
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:textSize="16sp"
+                                android:text="AUDITOR"
+                                android:textColor="#fff"/>
+
+                            <EditText
+                                android:id="@+id/notes.6"
+                                android:layout_weight="1"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                            <EditText
+                                android:id="@+id/address.6"
+                                android:layout_weight="1"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                            <RadioGroup
+                                android:id="@+id/level.6"
+                                android:layout_weight="1"
+                                android:layout_gravity="center_horizontal"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/level.l.6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Low"/>
+                                <RadioButton
+                                    android:id="@+id/level.m.6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Medium"/>
+                                <RadioButton
+                                    android:id="@+id/level.h.6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="High"/>
+                            </RadioGroup>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tRow13"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp">
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:textSize="16sp"
+                                android:text="OTHERS"
+                                android:textColor="#fff"/>
+
+                            <EditText
+                                android:id="@+id/notes.7"
+                                android:layout_weight="1"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                            <EditText
+                                android:id="@+id/address.7"
+                                android:layout_weight="1"
+                                android:textColor="#fff"
+                                android:gravity="center"/>
+
+                            <RadioGroup
+                                android:id="@+id/level.7"
+                                android:layout_weight="1"
+                                android:layout_gravity="center_horizontal"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/level.l.7"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Low"/>
+                                <RadioButton
+                                    android:id="@+id/level.m.7"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Medium"/>
+                                <RadioButton
+                                    android:id="@+id/level.h.7"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="High"/>
+                            </RadioGroup>
+
+                        </TableRow>
+
+                    </TableLayout>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:shrinkColumns="*"
+                    android:stretchColumns="*"
+                    android:layout_marginBottom="10dp">
+
+                    <TableRow
+                        android:id="@+id/tRow14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp">
+
+                        <TextView
+                            android:layout_weight="1"
+                            android:textSize="16sp"
+                            android:text="LAST VISIT"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_weight="1"
+                            android:textSize="16sp"
+                            android:text="PENDING TASK STATUS FROM PREVIOUS VISIT FOR HEAD OFFICE"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_weight="1"
+                            android:textSize="16sp"
+                            android:text="ADDRESS TO"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_weight="1"
+                            android:textSize="16sp"
+                            android:text="RESPONSIBLE"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_weight="1"
+                            android:textSize="16sp"
+                            android:text="STATUS"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tRow15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp">
+
+                        <TextView
+                            android:layout_weight="1"
+                            android:textSize="16sp"
+                            android:text="MERCHANDISER"
+                            android:textColor="#fff"/>
+
+                        <EditText
+                            android:id="@+id/notes.8"
+                            android:layout_weight="1"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                        <EditText
+                            android:id="@+id/address.8"
+                            android:layout_weight="1"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                        <EditText
+                            android:id="@+id/respond_lvst.1"
+                            android:layout_weight="1"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                        <EditText
+                            android:id="@+id/status_lvst.1"
+                            android:layout_weight="1"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tRow16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp">
+
+                        <TextView
+                            android:layout_weight="1"
+                            android:textSize="16sp"
+                            android:text="DISTRIBUTOR"
+                            android:textColor="#fff"/>
+
+                        <EditText
+                            android:id="@+id/notes.9"
+                            android:layout_weight="1"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                        <EditText
+                            android:id="@+id/address.9"
+                            android:layout_weight="1"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                        <EditText
+                            android:id="@+id/respond_lvst.2"
+                            android:layout_weight="1"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                        <EditText
+                            android:id="@+id/status_lvst.2"
+                            android:layout_weight="1"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tRow17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp">
+
+                        <TextView
+                            android:layout_weight="1"
+                            android:textSize="16sp"
+                            android:text="RENOVATION"
+                            android:textColor="#fff"/>
+
+                        <EditText
+                            android:id="@+id/notes.10"
+                            android:layout_weight="1"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                        <EditText
+                            android:id="@+id/address.10"
+                            android:layout_weight="1"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                        <EditText
+                            android:id="@+id/respond_lvst.3"
+                            android:layout_weight="1"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                        <EditText
+                            android:id="@+id/status_lvst.3"
+                            android:layout_weight="1"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tRow18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp">
+
+                        <TextView
+                            android:layout_weight="1"
+                            android:textSize="16sp"
+                            android:text="LEASING"
+                            android:textColor="#fff"/>
+
+                        <EditText
+                            android:id="@+id/notes.11"
+                            android:layout_weight="1"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                        <EditText
+                            android:id="@+id/address.11"
+                            android:layout_weight="1"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                        <EditText
+                            android:id="@+id/respond_lvst.4"
+                            android:layout_weight="1"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                        <EditText
+                            android:id="@+id/status_lvst.4"
+                            android:layout_weight="1"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tRow19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp">
+
+                        <TextView
+                            android:layout_weight="1"
+                            android:textSize="16sp"
+                            android:text="ACCOUNTING"
+                            android:textColor="#fff"/>
+
+                        <EditText
+                            android:id="@+id/notes.12"
+                            android:layout_weight="1"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                        <EditText
+                            android:id="@+id/address.12"
+                            android:layout_weight="1"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                        <EditText
+                            android:id="@+id/respond_lvst.5"
+                            android:layout_weight="1"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                        <EditText
+                            android:id="@+id/status_lvst.5"
+                            android:layout_weight="1"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tRow20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp">
+
+                        <TextView
+                            android:layout_weight="1"
+                            android:textSize="16sp"
+                            android:text="AUDITOR"
+                            android:textColor="#fff"/>
+
+                        <EditText
+                            android:id="@+id/notes.13"
+                            android:layout_weight="1"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                        <EditText
+                            android:id="@+id/address.13"
+                            android:layout_weight="1"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                        <EditText
+                            android:id="@+id/respond_lvst.6"
+                            android:layout_weight="1"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                        <EditText
+                            android:id="@+id/status_lvst.6"
+                            android:layout_weight="1"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/tRow21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp">
+
+                        <TextView
+                            android:layout_weight="1"
+                            android:textSize="16sp"
+                            android:text="OTHERS"
+                            android:textColor="#fff"/>
+
+                        <EditText
+                            android:id="@+id/notes.14"
+                            android:layout_weight="1"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                        <EditText
+                            android:id="@+id/address.14"
+                            android:layout_weight="1"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                        <EditText
+                            android:id="@+id/respond_lvst.7"
+                            android:layout_weight="1"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                        <EditText
+                            android:id="@+id/status_lvst.7"
+                            android:layout_weight="1"
+                            android:textColor="#fff"
+                            android:gravity="center"/>
+
+                    </TableRow>
+
+                </TableLayout>
+
+                <Button
+                    android:id="@+id/btnNext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sls_bs"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#fff"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+</LinearLayout>

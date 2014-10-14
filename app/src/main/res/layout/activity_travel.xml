@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#e74c3c"
+    tools:context="com.dreamblend.isolusindo.batasalesmanagment.app.TravelActivity">
+
+    <Spinner
+        android:id="@+id/storeSelector"
+        android:layout_width="405dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#95a5a6"
+        android:singleLine="true"
+        android:textSize="22sp"
+        android:background="#ecf0f1"
+        />
+
+    <EditText
+        android:id="@+id/datePicker"
+        android:layout_width="405dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:layout_toRightOf="@+id/storeSelector"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#95a5a6"
+        android:textSize="10pt"
+        android:background="#ecf0f1"
+        android:hint="Tanggal"
+        />
+
+    <EditText
+        android:id="@+id/accomodation"
+        android:layout_width="405dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:layout_toRightOf="@+id/datePicker"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#95a5a6"
+        android:textSize="10pt"
+        android:background="#ecf0f1"
+        android:hint="Accomodation / Akomodasi"
+        />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:textColor="#fff"
+        android:background="#e74c3c"
+        android:textSize="25dp"
+        android:layout_below="@+id/datePicker"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
