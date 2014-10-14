@@ -137,7 +137,12 @@ public class SalesActivity extends ActionBarActivity {
                 try {
                     if (response != null)
                         Log.i(TAG, "response " + response.getStatusLine().toString());
-                        btnNext.setVisibility(View.VISIBLE);
+
+                        runOnUiThread(new Runnable() {
+                            public void run() {
+                                btnNext.setVisibility(View.VISIBLE);
+                            }
+                        });
                 } finally {
 
                 }
