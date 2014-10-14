@@ -46,7 +46,7 @@ public class SalesActivity extends ActionBarActivity {
     String id;
     String edp;
     String store;
-
+    String dateNow;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -62,7 +62,7 @@ public class SalesActivity extends ActionBarActivity {
         btnGetPicture = (Button) findViewById(R.id.btnGetPicture);
         btnNext = (Button) findViewById(R.id.btnNext);
 
-
+        dateNow = new SimpleDateFormat("yyyy-MM-dd").format(new Date());
         btnNext.setVisibility(View.GONE);
         btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -116,11 +116,12 @@ public class SalesActivity extends ActionBarActivity {
             DefaultHttpClient httpclient = new DefaultHttpClient();
             try {
                 HttpPost httppost = new HttpPost(
-                        "http://wearedreamblend.com/android/savetofile.php"); // server
+                        "http://wearedreamblend.com/bata/insert.photo.php"); // server
 
                 MultipartEntity reqEntity = new MultipartEntity();
+
                 reqEntity.addPart("myFile",
-                        System.currentTimeMillis() + ".jpg", in);
+                        id + "_" + store + "_" + dateNow + ".jpg", in);
                 httppost.setEntity(reqEntity);
 
                 Log.i(TAG, "request " + httppost.getRequestLine());

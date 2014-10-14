@@ -89,14 +89,13 @@
 
                 <EditText
                     android:id="@+id/ed_1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginRight="8dp"
                     android:textColor="#95a5a6"
                     android:textSize="18sp"
                     android:background="#ecf0f1"
-                    />
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
 
                 <TextView
                     android:id="@+id/ti.2"
@@ -374,6 +373,112 @@
 
             </LinearLayout>
             <!-- END ROW 4 GI -->
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="*"
+                android:stretchColumns="*"
+                android:layout_marginBottom="10dp">
+
+                <TableRow
+                    android:id="@+id/tbl.1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:textSize="18sp"
+                        android:text="DISTRICT"
+                        android:textColor="#ecf0f1"/>
+
+                    <EditText
+                        android:layout_weight="1"
+                        android:layout_marginRight="8dp"
+                        android:textColor="#95a5a6"
+                        android:textSize="18sp"
+                        android:background="#ecf0f1" />
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:textSize="18sp"
+                        android:text="DATE / DAY OF VISIT"
+                        android:textColor="#ecf0f1"/>
+
+                    <EditText
+                        android:layout_weight="1"
+                        android:layout_marginRight="8dp"
+                        android:textColor="#95a5a6"
+                        android:textSize="18sp"
+                        android:background="#ecf0f1"
+                        />
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:textSize="18sp"
+                        android:text="WEEK OF VISIT"
+                        android:textColor="#ecf0f1"/>
+
+                    <EditText
+                        android:layout_weight="1"
+                        android:textColor="#95a5a6"
+                        android:textSize="18sp"
+                        android:background="#ecf0f1"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tbl.2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_weight="1"
+                        android:textSize="16sp"
+                        android:text="TD"
+                        android:textColor="#fff"/>
+                    <EditText
+                        android:id="@+id/sales_td"
+                        android:layout_weight="1"
+                        android:hint="Sales (TD)"
+                        android:textColor="#fff"
+                        android:textColorHint="#fff"
+                        />
+                    <EditText
+                        android:id="@+id/test_td"
+                        android:layout_weight="1"
+                        android:hint="Test (TD)"
+                        android:textColor="#fff"
+                        android:textColorHint="#fff"
+                        />
+                    <EditText
+                        android:id="@+id/taly_tw"
+                        android:layout_weight="1"
+                        android:hint="Taly (TD)"
+                        android:textColor="#fff"
+                        android:textColorHint="#fff"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tbl.3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textSize="16sp"
+                        android:text="STOCK CLOSING WEEK"
+                        android:textColor="#fff"/>
+
+                    <EditText
+                        android:id="@+id/stockclsg_pairs"
+                        android:layout_weight="1"
+                        android:hint="Stock Closing Week"
+                        android:textColor="#fff"
+                        android:textColorHint="#fff"/>
+                </TableRow>
+
+            </TableLayout>
             <Button
                 android:id="@+id/btnNext"
                 android:layout_width="wrap_content"
